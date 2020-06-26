@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="keywords" content="响应式检测,响应式测试,响应式布局检测,响应式网站测试" />
+		<meta name="description" content="响应式布局网站检测工具是用于免费测试网站是否自适应于各种设备，只需要输入网址就能检测网站在手机、平板、电脑等多屏下的显示效果。" />
+		<title>多屏响应式布局测试-鲁虺响应式网站在线检测工具</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="plugins/respond.js"></script>
+		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+		<link href="favicon.ico" rel="bookmark icon" />
+	</head>
+
+	<body>
+		<!--顶部-->
+		<div class="layout bg-main bg-inverse fixed" style="z-index: 9;">
+			<div class="container">
+				<div class="navbar">
+					<div class="navbar-head">
+						<button class="button bg-white icon-navicon" data-target="#respond"></button>
+						<a href="/"><img src="images/30-white.png" /> <strong class="text-big">鲁虺 - 工具集</strong></a>
+					</div>
+					<div class="navbar-body nav-navicon" id="respond">
+						<ul class="nav nav-inline nav-menu navbar-right">
+							<li>
+								<a target="_blank" href="javascript:void(0)">鲁虺</a>
+								<ul class="drop-menu">
+<li><a target="_blank" href="http://www.luhui.net:70/zh/forum.php?mod=forumdisplay&fid=86">鲁虺作品</a></li>
+<li><a target="_blank" href="http://www.luhui.net:70/">文化智能</a></li>
+</ul>
+
+</li>
+
+<li>
+<a class="bg-green" target="_blank" href="http://www.luhui.net:70/zh/portal.php?mod=list&catid=17">工具</a>
+
+<ul class="drop-menu">
+<li><a target="_blank" href="test.html">响应式测试工具</a></li>
+<li><a target="_blank" href="form.html">表单设计生成</a></li>
+<li><a target="_blank" href="animation.html">CSS3动画生成</a></li>
+<li><a target="_blank" href="viewcode.html">代码预览工具</a></li>
+<li><a target="_blank" href="color.html">自定义颜色生成</a></li>
+<li><a target="_blank" href="setcolor.html">配色工具</a></li>
+<li><a target="_blank" href="popo.html">气泡框生成</a></li>
+</ul>
+
+</li>
+
+<li>
+<a class="bg-blue" target="_blank" href="javascript:void(0)">文化</a>
+
+<ul class="drop-menu"><li>
+<a target="_blank" href="http://www.luhui.net:70/zh/portal.php?mod=list&catid=5"title="文化传统">文化传统</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:70/zh/portal.php?mod=list&catid=3" title="文学艺术">文学艺术</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:70/zh/portal.php?mod=list&catid=2" title="哲学宗教">哲学宗教</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:70/zh/portal.php?mod=list&catid=13" title="宇宙探索">宇宙探索</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:70/zh/portal.php?mod=list&catid=14" title="生物进化">生物进化</a></li>
+
+</ul>
+</li>
+
+
+<li><a class="bg-yellow" target="_blank" href="start.html">使用文档</a></li>
+</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bg-white doc-fixed-top panel text-center border-main">
+				<form action="index.html">
+					&nbsp;
+					<input type="text" class="input input-auto" name="url" id="url" size="30" placeholder="网址，如：guanfu.co" />
+					<button type="button" name="check" class="button bg-main url-check margin">
+						检测
+					</button>
+					<a href="viewtest.html" class="tag bg-yellow">使用专业版</a>
+				</form>
+			</div>
+		</div>
+		<div class="layout space iphone5">
+			<div class="time clearfix">
+<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>				
+
+			</div>
+			<iframe src="demo.html" id="iphone5"></iframe>
+			<p>
+				iPhone 5/5c/5s 响应式布局测试 (宽: 320px)
+			</p>
+		</div>
+		<div class="layout space iphone5-x">
+			<div class="time">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="iphone5-x"></iframe>
+			<p>
+				iPhone 5/5c/5s 横屏 响应式布局测试 (宽: 568px)
+			</p>
+		</div>
+		<div class="layout space iphone6">
+			<div class="time clearfix">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="iphone6"></iframe>
+			<p>
+				iPhone 6 响应式布局测试 (宽: 375px)
+			</p>
+		</div>
+		<div class="layout space iphone6-x">
+			<div class="time">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="iphone6-x"></iframe>
+			<p>
+				iPhone 6 横屏 响应式布局测试 (宽: 667px)
+			</p>
+		</div>
+		<div class="layout space iphone6-plus">
+			<div class="time clearfix">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="iphone6-plus"></iframe>
+			<p>
+				iPhone 6 Plus 响应式布局测试 (宽: 414px)
+			</p>
+		</div>
+		<div class="layout space iphone6-plus-x">
+			<div class="time clearfix">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="iphone6-plus-x"></iframe>
+			<p>
+				iPhone 6 Plus 横屏 响应式布局测试 (宽: 736px)
+			</p>
+		</div>
+		<div class="layout space ipad">
+			<div class="time clearfix">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="ipad"></iframe>
+			<p>
+				iPad 响应式布局测试 (宽: 768px)
+			</p>
+		</div>
+		<div class="layout space ipad-x">
+			<div class="time">
+				<script type="text/javascript" src="http://www.luhui.net:70/Server_time.asp?type=123"></script>
+			</div>
+			<iframe src="demo.html" id="ipad-x"></iframe>
+			<p>
+				iPad 横屏 响应式布局测试 (宽: 1024px)</p>
+
+
+<p><img class="logo" src="../images/30-white.png" alt="鲁虺文化网" />
+						</a>
+							版权所有 &copy; <a href="http://luhui.net" target="_blank">luhui.net</a> All Rights Reserved
+
+</p>
+		</div>
+		<div class="container">
+			<!--PC和WAP自适应版-->
+
+
+
+<div class="doc-backtop win-backtop icon-arrow-circle-up"></div>
+		<script type="text/javascript">
+			$(".url-check").click(function() {
+				var url;
+				//如果没有带HTTP则增加访问，否则直接访问
+				if ($("#url").val().indexOf("http") <= -1) {
+					url = "http://" + $("#url").val();
+				} else {
+					url = $("#url").val();
+				}
+				$(".space iframe").attr("src", url);
+			});
+		</script>
+<div class="hidden">
+
+</div>
+
+
+
+
+
+
+<span style="display:none;"><script src="http://s11.cnzz.com/stat.php?id=610720&web_id=610720" language="JavaScript"></script></span>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
+
+
+
+</body>
+
+</html>

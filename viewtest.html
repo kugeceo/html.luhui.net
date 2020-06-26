@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+
+<head>
+		
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+<meta name="renderer" content="鲁虺webkit响应式检测,响应式测试,响应式布局检测,响应式网站测试">
+		
+<meta name="keywords" content="鲁虺webkit响应式检测,响应式测试,响应式布局检测,响应式网站测试" />
+		
+<meta name="description" content="鲁虺webkit响应式布局网站检测工具是用于免费测试网站是否自适应于各种设备，只需要输入网址就能检测网站在手机、平板、电脑等多屏下的显示效果。" />
+		
+<title>多屏响应式布局测试-鲁虺响应式网站在线检测工具</title>
+		
+<link href="../css/pintuer.css" rel="stylesheet" type="text/css" />
+		
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		
+<script src="../js/jquery.js"></script>
+		
+<script src="../js/pintuer.js"></script>
+		
+<script src="../plugins/respond.js"></script>
+		
+<script src="../plugins/layer/layer.js"></script>
+		
+<script src="../plugins/jquery.qrcode.min.js"></script>
+		
+<link type="image/x-icon" href="../favicon.ico" rel="shortcut icon" />
+		
+<link href="../favicon.ico" rel="bookmark icon" />
+
+		
+<style>			.demo-nav.fixed.fixed-top {
+				z-index: 8;
+				background: #fff;
+				width: 100%;
+				padding: 0;
+				border-bottom: solid 3px #0a8;
+				-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .175);
+				box-shadow: 0 3px 6px rgba(0, 0, 0, .175);
+			}
+			
+			.hove {
+				border: 1px solid #0a8;
+				cursor: crosshair;
+			}
+			
+			.list-link a.active:link,
+			.list-link a.active:visited {
+				background-color: #FF811A;
+			}
+		
+</style>
+	
+</head>
+
+	
+<body>
+		
+
+
+<!--顶部-->
+		
+<div class="layout bg-main bg-inverse fixed" style="z-index: 9;">
+			
+<div class="container">
+				
+<div class="navbar">
+					
+<div class="navbar-head">
+						
+<button class="button bg-white icon-navicon" data-target="#respond">
+</button>
+
+<a href="/">
+<img src="/images/30-white.png" />
+ <strong class="text-big">鲁虺 - 工具集</strong></a></div>
+
+<div class="navbar-body nav-navicon" id="respond"><ul class="nav nav-inline nav-menu navbar-right">
+<li><a target="_blank" href="javascript:void(0)">鲁虺</a><ul class="drop-menu">
+<li><a target="_blank" href="http://www.luhui.net:90/zh/forum.php?mod=forumdisplay&fid=86">鲁虺作品</a></li>
+<li><a target="_blank" href="http://www.luhui.net:90/">文化智能</a></li>
+</ul>
+
+</li>
+
+<li>
+<a class="bg-green" target="_blank" href="http://www.luhui.net:90/zh/portal.php?mod=list&catid=17">工具</a>
+
+<ul class="drop-menu">
+<li><a target="_blank" href="test.html">响应式测试工具</a></li>
+<li><a target="_blank" href="form.html">表单设计生成</a></li>
+<li><a target="_blank" href="animation.html">CSS3动画生成</a></li>
+<li><a target="_blank" href="viewcode.html">代码预览工具</a></li>
+<li><a target="_blank" href="color.html">自定义颜色生成</a></li>
+<li><a target="_blank" href="setcolor.html">配色工具</a></li>
+<li><a target="_blank" href="popo.html">气泡框生成</a></li>
+</ul>
+
+</li>
+
+<li>
+<a class="bg-blue" target="_blank" href="javascript:void(0)">文化</a>
+
+<ul class="drop-menu"><li>
+<a target="_blank" href="http://www.luhui.net:90/zh/portal.php?mod=list&catid=5"title="文化传统">文化传统</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:90/zh/portal.php?mod=list&catid=3" title="文学艺术">文学艺术</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:90/zh/portal.php?mod=list&catid=2" title="哲学宗教">哲学宗教</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:90/zh/portal.php?mod=list&catid=13" title="宇宙探索">宇宙探索</a></li>
+
+<li><a target="_blank" href="http://www.luhui.net:90/zh/portal.php?mod=list&catid=14" title="生物进化">生物进化</a></li>
+
+</ul>
+</li>
+
+
+<li><a class="bg-yellow" target="_blank" href="start.html">使用文档</a></li>
+</ul>
+					</div>
+		</div>
+</div>
+</div>
+		
+<br />
+
+
+<div class="container-layout">
+	"工欲善其事，必先利其器。"——孔子《论语·卫灵公》。欢迎使用专业版<a class="text-dot" href="http://www.luhui.net:90/%E9%B2%81%E8%99%BA%E5%A4%9A%E5%B1%8F%E5%93%8D%E5%BA%94%E5%BC%8F%E5%B8%83%E5%B1%80%E7%BD%91%E7%AB%99%E5%9C%A8%E7%BA%BF%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7">鲁虺多屏响应式布局网站在线检测</a>工具集。
+
+<div id="alert-a" class="alert alert-yellow margin padding">
+
+<span class="close rotate-hover"></span><strong>响应式布局网站检测工具是用于免费测试网站是否自适应于各种设备，只需要输入网址就能检测网站在手机、平板、电脑等多屏下的显示效果。 <br>
+				<strong class="tag bg-blue">注:</strong><span class="text-blue">专业版响应式测试工具，增加更多手机、平板、电脑等多屏下的显示效果。</span>
+				</strong>
+				<a href="test.html" class="tag bg-green">使用通用版</a>
+			</div>
+		</div>
+
+		<br />
+	
+	<!--内容-->
+
+<div class="container-layout">
+	
+<div class="line-big">
+	
+<div class="x10">
+<div class="tab">
+
+<div class="tab-head text-left">
+ <ul class="tab-nav">
+<span class="float-right">
+	<input type="text" class="input input-auto" name="url" id="url" size="30" placeholder="网址，如：www.guanfu.co" />
+ <button type="button" name="check" class="button bg-main url-check">
+									检测
+								</button>
+								</span>
+								<li class="active"><a href="#tab-start">模拟预览</a> </li>
+								<li><a id="tab-viewqrcode" href="#tab-qrcode">真机预览</a> </li>
+								<a href="javascript:;" class="tag bg-blue" id="btn-refresh"><span class="icon-refresh bg-blue">刷新</span></a>
+								<b id="veiw-print" class="tag bg-yellow">当前分辨率320x480px(像素)</b>
+							</ul>
+				</div>
+
+						
+<div class="tab-body">
+							<div class="tab-panel active" id="tab-start">
+								<iframe src="" id="view" width="320" height="480"></iframe>
+							</div>
+							<div class="tab-panel text-center" id="tab-qrcode">
+								<strong class="padding-big">请使用手机扫一扫功能浏览效果</strong>
+								<br>
+								<div class="padding-big" id="div-qrcode"></div>
+								<br>
+								<strong class="padding-big">双击预览链接并复制</strong>
+								<br>
+								<textarea id="text-viewlink" style="width: 85%;">
+								</textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="x2 bg-white">
+					<div class="tab">
+						<div class="tab-head text-right">
+							<ul class="tab-nav">
+								<li class="active"><a href="#tab-mobile">移动端</a> </li>
+								<li><a href="#tab-pc">电脑端</a> </li>
+							</ul>
+						</div>
+						<div class="tab-body padding-big-bottom text-small">
+							<div class="tab-panel active" id="tab-mobile">
+								<ul class="list-link border-yellow">
+									<li i-width="640" i-height="960"><a class="text-yellow" href="javascript:;">苹果IOS</a></li>
+									<li i-width="320" i-height="480"><a class="active" href="javascript:;">iPhone3(320x480)</a></li>
+									<li i-width="640" i-height="960"><a href="javascript:;">iPhone4(640x960)</a></li>
+									<li i-width="640" i-height="1136"><a href="javascript:;">iPhone5(640x1136)</a></li>
+									<li i-width="750" i-height="1334"><a href="javascript:;">iPhone6(750x1334)</a></li>
+									<li i-width="768" i-height="1004"><a href="javascript:;">iPad(768x1004)</a></li>
+									<li i-width="1024" i-height="748"><a href="javascript:;">iPad横屏(1024x748)</a></li>
+									<li i-width="768" i-height="1024"><a href="javascript:;">iPad-IOS7/8(768x1024)</a></li>
+									<li i-width="1024" i-height="768"><a href="javascript:;">iPad-IOS7/8横屏(1024x768)</a></li>
+									<li i-width="480" i-height="800"><a class="text-yellow" href="javascript:;">安卓/WP</a></li>
+									<li i-width="320" i-height="442"><a href="javascript:;">Android ldpi(320x442)</a></li>
+									<li i-width="360" i-height="640"><a href="javascript:;">Android(360x640)</a></li>
+									<li i-width="480" i-height="762"><a href="javascript:;">Android hdpi(480x762)</a></li>
+									<li i-width="480" i-height="800"><a href="javascript:;">WindowsPhone(480x800)</a></li>
+									<li i-width="720" i-height="1242"><a href="javascript:;">Android xhdpi(720x1242)</a></li>
+									<li i-width="768" i-height="1280"><a href="javascript:;">WindowsPhone(768x1280)</a></li>
+									<li i-width="1080" i-height="1882"><a href="javascript:;">Android xxhdpi(1080x1882)</a></li>
+								</ul>
+
+							</div>
+							<div class="tab-panel" id="tab-pc">
+
+								<ul class="list-link border-yellow">
+									<li i-width="800" i-height="600"><a href="javascript:;">800x600</a></li>
+									<li i-width="1024" i-height="768"><a href="javascript:;">1024x768</a></li>
+									<li i-width="1152" i-height="864"><a href="javascript:;">1152x864</a></li>
+									<li i-width="1280" i-height="600"><a href="javascript:;">1280x600</a></li>
+									<li i-width="1280" i-height="720"><a href="javascript:;">1280x720</a></li>
+									<li i-width="1280" i-height="768"><a href="javascript:;">1280x768</a></li>
+									<li i-width="1280" i-height="800"><a href="javascript:;">1280x800</a></li>
+									<li i-width="1280" i-height="960"><a href="javascript:;">1280x960</a></li>
+									<li i-width="1280" i-height="1024"><a href="javascript:;">1280x1024</a></li>
+									<li i-width="1360" i-height="768"><a href="javascript:;">1360x768</a></li>
+									<li i-width="1366" i-height="768"><a href="javascript:;">1366x768</a></li>
+									<li i-width="1440" i-height="900"><a href="javascript:;">1440x900</a></li>
+									<li i-width="1400" i-height="1050"><a href="javascript:;">1400x1050</a></li>
+									<li i-width="1600" i-height="900"><a href="javascript:;">1600x900</a></li>
+									<li i-width="1680" i-height="1050"><a href="javascript:;">1680x1050</a></li>
+									<li i-width="1920" i-height="1080"><a href="javascript:;">1920x1080</a></li>
+									<li i-width="1920" i-height="1200"><a href="javascript:;">1920x1200</a></li>
+									<li i-width="1920" i-height="1280"><a href="javascript:;">1920x1280</a></li>
+									<li i-width="2560" i-height="1600"><a href="javascript:;">2560x1600</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-layout">
+			<!--PC和WAP自适应版-->
+			
+
+
+
+
+<!--底部-->
+		<br />
+		<br />
+		
+<div class="layout bg-black bg-inverse">
+			<div class="container">
+				
+<div class="navbar">
+					
+<div class="navbar-head">
+						<button class="button bg-gray icon-navicon" data-target="#navbar-footer">
+						</button>
+						<a href="http://luhui.net" target="_blank">
+							<img class="logo" src="../images/30-white.png" alt="鲁虺文化网" />
+						</a>
+					</div>
+					<div class="navbar-body nav-navicon">
+						<div class="navbar-text navbar-left hidden-s hidden-l">
+							版权所有 &copy; <a href="http://www.luhui.net:90" target="_blank">luhui.net</a> All Rights Reserved
+						</div>
+						<ul class="nav nav-inline navbar-right">
+							<li><a href="/">首页</a></li>
+							<li><a href="http://www.luhui.net:90/zh/plugin.php?id=ai_view:pages&do=about">关于</a></li>
+							<li><a href="http://www.luhui.net:90/zh/plugin.php?id=ai_view:pages&do=contact">联系</a></li>
+							<li><a href="http://www.luhui.net:90/zh/plugin.php?id=cmsoft_webmap">更多 </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+<div class="doc-backtop win-backtop icon-arrow-circle-up">
+		</div>
+		<div class="hidden">
+			<script src="http://s4.cnzz.com/stat.php?id=610720&web_id=610720" language="JavaScript"></script>
+					</div>
+		<script>
+			$(function() {
+				var url;
+				//获取url参数值
+				var reg = new RegExp("(^|&)v=([^&]*)(&|$)", "i");
+				var r = window.location.search.substr(1).match(reg);
+				if (r != null) {
+					url = unescape(r[2]);
+					$("#url").val(url);
+					$("#view").attr("src", url);
+				} else
+					url = "";
+				$(".list-link li").click(function() {
+					$(".list-link a").removeClass("active");
+					$(this).children("a").addClass("active");
+					var w = $(this).attr("i-width"); //获取宽度
+					var h = $(this).attr("i-height"); //获取高度
+					var cw = window.screen.width;
+					$("#veiw-print").html("当前分辨率：" + w + "x" + h + "px(像素)");
+					if (w <= cw) {
+						$("#view").css({
+							"width": "" + w + "",
+							"height": "" + h + ""
+						});
+					} else {
+						layer.msg("您的电脑屏幕当前最大分辨率宽度是：" + cw + ",如果正常使用，请更换更高分辨率测试。");
+					}
+				});
+				$(".url-check,#btn-refresh,#tab-viewqrcode").click(function() {
+					//如果没有带HTTP则增加访问，否则直接访问
+					if ($("#url").val().indexOf("http") <= -1) {
+						url = "http://" + $("#url").val();
+					} else {
+						url = $("#url").val();
+					}
+					$("#view").attr("src", url);
+					//生成真机浏览二维码
+					$("#div-qrcode").empty();
+					$("#div-qrcode").qrcode({
+						render: "canvas",
+						width: 200,
+						height: 200,
+						text: url
+					});
+					//生成预览链接
+					var view_url = "http://html.luhui.net:90/viewtest.html?v=" + encodeURI(url);
+					$("#text-viewlink").val(view_url);
+				});
+			});
+		</script>
+	
+
+</body>
+
+</html>

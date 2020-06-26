@@ -18,7 +18,7 @@ http://htmls.netlify.com
 鲁虺多屏网站响应式布局在线检测工具包含目前市场各种大小屏幕响应式布局检测工具iPhone4/4s、iPhone5/5c/5s、iPhone6/iPhone7/iPhone9/iPhone11/Plus、iPad竖屏响应式布局检测
 
 
-http://html.luhui.net/?url=http://www.baidu.com/
+http://html.luhui.net/url.htm?url=http://www.baidu.com/
 
 
 
